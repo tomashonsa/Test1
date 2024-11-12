@@ -7,7 +7,7 @@ while True:
         Napeti =int(Napeti)
         Odpor =int(Odpor)
         if Odpor <= 0:
-            print("nelze dělit nulou nebo minusem")
+            print("nelze dělit nulou nebo zápornou hodnotou")
         else:
             print("R=", Odpor,"Ω"," " "U=",Napeti,"V"," ","I=?")
             print("I=", Napeti,"/",Odpor)
@@ -26,7 +26,7 @@ while True:
         Napeti =int(Napeti)
         Proud =int(Proud)
         if Proud <= 0:
-            print("nelze dělit nulou nebo minusem")
+            print("nelze dělit nulou nebo zápornou hodnotou")
         else:
             print("U=",Napeti,"V"," ""I=", Proud,"A"," ","R=?")
             print("R=", Napeti,"/",Proud)
