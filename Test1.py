@@ -4,8 +4,8 @@ while True:
     if vyber == "I":
         Napeti = input("Jaký je napětí?")
         Odpor = input("Jaký je Odpor?")
-        Napeti =int(Napeti)
-        Odpor =int(Odpor)
+        Napeti =float(Napeti)
+        Odpor =float(Odpor)
         if Odpor <= 0:
             print("nelze dělit nulou nebo zápornou hodnotou")
         else:
@@ -15,16 +15,16 @@ while True:
     elif vyber == "U":
         Proud = input("Jaký je Proud?")
         Odpor = input("Jaký je odpor?")
-        Proud = int(Proud)
-        Odpor = int(Odpor)
+        Proud = float(Proud)
+        Odpor = float(Odpor)
         print("R=", Odpor,"Ω"," " "I=",Proud,"A"," ","U=?")
         print("U=", Proud,"*",Odpor)
         print("U=", Proud*Odpor,"V")
     elif vyber == "R":
         Napeti = input("Jaký je napětí?")
         Proud = input("Jaký je Proud?")
-        Napeti =int(Napeti)
-        Proud =int(Proud)
+        Napeti =float(Napeti)
+        Proud =float(Proud)
         if Proud <= 0:
             print("nelze dělit nulou nebo zápornou hodnotou")
         else:
